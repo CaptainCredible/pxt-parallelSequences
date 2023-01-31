@@ -6,10 +6,18 @@ enum sequences {
     //%block="sequence three"
     sequenceThree = 83,
     //%block="sequence four"
-    sequenceFour = 84
+    sequenceFour = 84,
+    //%block="sequence five"
+    sequenceFive = 85,
+    //%block="sequence six"
+    sequenceSix = 86,
+    //%block="sequence seven"
+    sequenceSeven = 87,
+    //%block="sequence eight"
+    sequenceEight = 88
 }
 
-namespace parallellSeq {
+namespace parallellSequences {
     //%block="start parallell| $seqSelex"
     export function startParallelSequence(seqSelex: sequences): void {
         control.raiseEvent(seqSelex, 1337)
