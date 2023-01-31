@@ -1,6 +1,23 @@
 
 > Open this page at [https://captaincredible.github.io/pxt-parallelsequences/](https://captaincredible.github.io/pxt-parallelsequences/)
 
+This is an extension that simplifies the process of writing parallel threads that can be started simultaniously and run in synchronization with oneanother.
+
+set up parallel threads like this: 
+
+parallellSequences.parallellSequence(sequences.sequenceOne, function() {
+    led.toggleAll()
+    basic.pause(1000)
+    led.toggleAll()
+    basic.pause(1000)
+
+})
+
+start the threads with:
+parallellSequences.startParallelSequence(sequences.sequenceOne) 
+
+
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
