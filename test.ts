@@ -1,1 +1,10 @@
-// tests go here; this will not be compiled when this package is used as an extension.
+parallellSequences.parallellSequence(sequences.sequenceOne, function() {
+    led.toggleAll()
+    basic.pause(1000)
+    led.toggleAll()
+    basic.pause(1000)
+
+})
+
+
+parallellSequences.startParallelSequence(sequences.sequenceOne)
