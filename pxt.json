@@ -1,5 +1,5 @@
 {
-    "name": "Parallel sequences",
+    "name": "parallel_sequences",
     "description": "",
     "dependencies": {
         "core": "*",
