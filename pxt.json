@@ -10,7 +10,7 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "pxt-parallellThreads.ts"
+        "pxt-parallellSeq.ts"
     ],
     "testFiles": [
         "test.ts"
