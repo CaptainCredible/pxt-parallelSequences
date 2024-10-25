@@ -8,20 +8,18 @@
         "microphone": "*"
     },
     "files": [
-        "main.blocks",
         "README.md",
-        "pxt-parallellSeq.ts",
-        "main.ts"
+        "pxt-parallellSeq.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "5.0.12",
+        "target": "7.0.51",
         "targetId": "microbit"
     },
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
